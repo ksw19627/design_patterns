@@ -1,0 +1,46 @@
+금주 배운 디자인 패턴
+Decorator - Convers one interface eto another
+Command
+Adapter - Doesn't alter the interface, ,but adds responsibility
+Facade - Make an interface simpler
+
+
+Iterator<String>iter = alist.iterator();
+while(iter.hasNext())
+{
+String str = iter.next();
+System.out.println(str);
+}
+
+same with
+
+for(int i=0; i<alist.size(); ++i)
+{
+System.out.println(alist.get(i));
+
+}
+
+and same with
+
+for(String str : alist)
+{
+   System.out.println(str);
+}
+
+같은 방식 예 (java 1.70 이상부터 가능)
+
+for (GrimShape grimShape:model.shapeList){
+			grimShape.draw(g2);
+		}
+
+
+**Enumeration - Iterator와 유사
+특정 Collection는 Enumeration 처럼사용
+
+Enumberation<String>enumer = alist.elements();
+while(enuber.hasMoreElements())
+{
+String str = enumber.nextElement();
+.......
+}
+

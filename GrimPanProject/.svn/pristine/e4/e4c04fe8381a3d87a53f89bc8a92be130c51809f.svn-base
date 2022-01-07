@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries version="2">
+<library name="Batik" systemlibrary="false">
+<archive path="C:/Sun/Batik-1.7/lib/batik-anim.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-awt-util.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-bridge.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-codec.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-css.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-dom.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-ext.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-extension.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-gui-util.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-gvt.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-parser.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-script.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-svg-dom.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-svggen.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-swing.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-transcoder.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-util.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/batik-xml.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/js.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/pdf-transcoder.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/xalan-2.6.0.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/xerces_2_5_0.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/xml-apis.jar"/>
+<archive path="C:/Sun/Batik-1.7/lib/xml-apis-ext.jar"/>
+</library>
+</eclipse-userlibraries>

@@ -1,0 +1,18 @@
+decorate pattern
+DecoratorImageProcessing을 DecoratorPattern을 사용하는 프로그램으로 수정을 한다.
+menu -> action 방식으로 되어있는데 
+ImageDecorator class를 만들어서 BufferedImage를 wrap해서 BufferedImage로 만든다. 
+
+ImageDecorator가 최상위 클래스, 이것의 Subclass들을 만든다.
+Hue(Color가 빨강-> 파랑으로), Saturation(채도 조절)
+Blur(흐릿하게 만드는것) , Sharpen(샤프하게 만드는것), Emboss(울퉁불통하게보이도록 만드는것)
+이것들을 서로 기능들이 섞이게끔 (Wrap한 효과가 겹치도록) 
+적용된 Decorator들, Display Button을 만든다. 
+오른쪽에 200X500의 공간에 statusPanel을 만들어놓고, 이곳에 적용된 Decorator들을 보여주기.
+
+4월 5일까지. Decorator Pattern을 이용한 Image 처리효과 중첩 시키는 Filter 만들기
+사용하는것 - svn의 DecoratorImageProcessing
+자신의 File을  \
+convolution kernel 참고!
+java convolution kernel!
+bimage.getType()

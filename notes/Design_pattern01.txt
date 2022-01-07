@@ -1,0 +1,56 @@
+%ProgramFiles(x86)\Microsoft Visual Studio 14.0\VC\bin\amd64
+
+=========================== 디자인 패턴 
+
+ObjectAid UML Explorer
+http://www.objectaid.net/update
+
+01. STRATEGY PATTERN
+
+ -> behavior (action)을 클래스화 시키는 전략.
+    원래는 behavior를 메소드로 쓰던것을, behavior를 클래스로 만들어서 이를 적절히 사용하는 방법이다. 
+    Program to an interface, not an implementation.
+
+   1. 따라서 implement 되지않은 Duck라는 abstract 클래스를 제작.     
+   2. 이 클래스 내부에서 각 behavior들의 메소드를 제작. 
+
+(has a) Inheritance를 자주 쓰는것이 좋지는 않다.
+
+
+=============================================================================
+
+02. OBSERVER PATTERN
+
+subject(관측 당하는 자) <-> Observer(관측자)
+=publisher
+1. 옵저버를 등록하거나 제거, 명시하는 메소드를 만든다.       Observer는 update 메소드만 가지고 있다.      
+여러개의 쓰레드가 아닌, 한개의 쓰레드인데 개별적인 움직임을 보임           
+
+http://kin.naver.com/qna/detail.nhn?d1id=1&dirId=1040202&docId=236790522&qb=6rCd7LK0IHBvbHltb3JwaGlzbQ==&enc=utf8&section=kin&rank=3&search_sort=0&spq=0&pid=SWHQdlpySEKssvW3faCsssssstd-103634&sid=NkhwWQAF7X9nNhKfIFQzCg%3D%3D
+ 
+ Basics
+ 1. Abstraction  : 함수와 데이터의 융합, data와 operation을 합친다. 이를 통해 하나의 object 최소단위인 클래스를 구현하는것.
+
+ 2. Encapsulation: Interface -> 사람과 컴퓨터 사이에 정보를 제공해 주는 것들 (GUI같은것) 
+                   이것을 통해서 정보를 은닉하는것이 Information hiding 즉, Encapsulation.
+                   캡슐화는 그 클래스의 고유한 특성을 외부(사용자나 다른 클래스)에서 
+                   임의로 변경하지 못하도록 하는 기능입니다.
+
+ 3. Polymorphism : 하나의 인터페이스를 이용하여 서로다른 구현방법을 제공하는 것
+                   특정 지식을 최소화한 관련된 클래스들을 위한 일관된 매개체를 개발하는 수단을 제공
+
+
+ 4. Inheritance  : 상위 클래스의 모든 성질과 method를 가져놓고, 이를 subclass를 만들면서 새로운 메소드를 추가하거나 이미 있는 클래스를 오버라이딩 하여 
+                   새로운 하위 클래스를 만드는 것. (수퍼클래스가 갖는 성질을 서브클래스에 자동으로 부여하는 개념)
+
+위키백과: API를 찾아보자.
+
+ Principles
+ 1. Encapsulate what varies
+ 2. Favor composition over inheritance
+ 3. Program to interfaces, not implementations.
+
+Interface TreeModel- javax.swing.tree
+
+ 
+    
